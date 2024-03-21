@@ -66,7 +66,7 @@ $app->post('/book/add', function ($request, $response, $args) {
     return $this->response->withJson(array('data' => $data), 200); }); 
 
 
-//delete row Order
+//delete row Orderr
 $app->delete('/book/del/[{id}]', function ($request, $response, $args){   
     $bookId = $args['id']; 
     
